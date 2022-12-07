@@ -11,7 +11,7 @@
 # Date:         11/28/22
 
 # As a team, we have gone through all required sections of the
-# tutorial, and each team member understands the material
+# tutorial, and each team member understands the materials
 
 from turtle import *
 # imports turtle
