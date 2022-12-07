@@ -29,4 +29,12 @@ pit_positions.append(randomNumExcluding(1,20,unUsable))
 unUsable.append(pit_positions[0])
 pit_positions.append(randomNumExcluding(1,20,unUsable))
 
-def player_move()
+def player_move(player_position, wanted_position):
+    for room in cave[player_position]:
+        if wanted_position == room:
+            player_position = wanted_position
+            print("The player has moved to room: " + str(player_position))
+
+def player_shoot(player_positon):
+    print("nuts")
+
