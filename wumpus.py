@@ -29,4 +29,7 @@ pit_positions.append(randomNumExcluding(1,20,unUsable))
 unUsable.append(pit_positions[0])
 pit_positions.append(randomNumExcluding(1,20,unUsable))
 
-def player_move()
+print(cave[player_position])
+
+def player_move(position, wanted_position):
+    for room in cave[player_position]:
